@@ -7,17 +7,19 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
 import { NavbarComponent } from './navbar/navbar.component';
+import { NewsComponent } from './news/news.component';
 
 const routes:Routes=[
   {
-
+    path:"",component:NewsComponent
   }
 ]
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarComponent
+    NavbarComponent,
+    NewsComponent
   ],
   imports: [
     BrowserModule,
